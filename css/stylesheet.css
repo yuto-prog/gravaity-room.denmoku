@@ -10,16 +10,19 @@ body {
 a {
   text-decoration: none;
 }
-
+p {
+  margin-block: 0;
+}
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding: 0 0px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+  /* background: radial-gradient(ellipse at center,),url(../img/bg_milkeyway.jpg); */
+  background-image: url(../img/bg_milkeyway.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -45,18 +48,6 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 8px 24px;
@@ -112,8 +103,9 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
+  height: 100%;
+  margin-top: 30px;
+  padding-bottom: 30px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
@@ -121,7 +113,7 @@ header {
 }
 
 .heading {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 50px;
   color: #5f5d60;
 }
@@ -137,13 +129,6 @@ header {
 
 .lesson-icon {
   position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
 }
 
 .text-contents {
@@ -204,15 +189,6 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
   footer {
     text-align: center;
   }
@@ -241,10 +217,6 @@ footer {
     width: 100%;
   }
 
-  .twitter {
-    margin-top: 10px;
-  }
-
   .top-wrapper {
     text-align: left;
   }
@@ -258,11 +230,7 @@ footer {
   }
 
   .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
+    width: 50%;
   }
 
   .message-wrapper .btn {
