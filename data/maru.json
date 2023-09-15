@@ -1,0 +1,31 @@
+{
+  "name": "まるさん",
+  "icon": "img/icon_maru.png",  
+  "introduction": "紹介文なんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶらなんたらかんたらあぶらかたぶら",
+  "artist-data": [
+    "BUMP OF CHIKEN",
+    "世界の終わり(SEKAI NO OWARI)",
+    "GO!GO!7188",
+    "Vaundy"
+  ],
+  "song-data": {
+    "song-name": [
+      "Super Nova",
+      "ウェザーリポート",
+      "眠り姫",
+      "こいのうた",
+      "浮舟",
+      "C7",
+      "しわあわせ"
+    ],
+    "song-artist": [
+      "BUMP OF CHIKEN",
+      "BUMP OF CHIKEN",
+      "世界の終わり(SEKAI NO OWARI)",
+      "GO!GO!7188",
+      "GO!GO!7188",
+      "GO!GO!7188",
+      "Vaundy"
+    ]
+  }
+}

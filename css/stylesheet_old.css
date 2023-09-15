@@ -21,6 +21,7 @@ p {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
+  /* background: radial-gradient(ellipse at center,),url(../img/bg_milkeyway.jpg); */
   background-image: url(../img/bg_milkeyway.jpg);
   background-size: cover;
   color: white;
@@ -33,11 +34,19 @@ p {
   letter-spacing: 5px;
 }
 
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
 
 .btn-wrapper {
   text-align: center;
 }
 
+.btn-wrapper p {
+  margin-bottom: 20px;
+}
 
 
 .btn {
@@ -66,6 +75,10 @@ header {
   z-index: 10;
 }
 
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
 
 .header-left {
   float: left;
@@ -76,7 +89,18 @@ header {
   margin-right: -25px;
 }
 
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
 
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
 
 .lesson-wrapper {
   height: 100%;
@@ -116,7 +140,22 @@ header {
   height: 100%;
 }
 
+/* .account-icon {
+  border-radius: 80%;
+  border: solid 3px orange;
+} */
 
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -131,6 +170,15 @@ header {
   box-shadow: 0px 7px #1a7940;
 }
 
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
 
 footer p {
   color: #b3aeb5;
